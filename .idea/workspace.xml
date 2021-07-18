@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d35add43-3588-469e-95cb-4451fbcbfc3f" name="Default Changelist" comment="last check 16.6.01." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1q6qllwJE6hK7Pih86Gz1hSOZNC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiDroneApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d35add43-3588-469e-95cb-4451fbcbfc3f" name="Default Changelist" comment="" />
+      <created>1616410540656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616410540656</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upload to github" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload to github" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="370" width="615" height="357" key="#Notifications" timestamp="1623872202882">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state x="484" y="370" width="615" height="357" key="#Notifications/0.27.1920.969@0.27.1920.969" timestamp="1623872202882" />
+    <state x="0" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624730831085">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state x="0" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.969@0.27.1920.969" timestamp="1624730831085" />
+    <state x="263" y="269" width="447" height="512" key="FileChooserDialogImpl" timestamp="1626607136549">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state x="263" y="269" width="447" height="512" key="FileChooserDialogImpl/0.27.1920.969@0.27.1920.969" timestamp="1626607136549" />
+    <state x="673" y="386" width="325" height="207" key="Github.ShareDialog" timestamp="1623872422132">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state x="673" y="386" width="325" height="207" key="Github.ShareDialog/0.27.1920.969@0.27.1920.969" timestamp="1623872422132" />
+    <state x="581" y="224" width="420" height="650" key="Github.UntrackedFilesDialog" timestamp="1618600880611">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state x="581" y="224" width="420" height="650" key="Github.UntrackedFilesDialog/0.27.1920.969@0.27.1920.969" timestamp="1618600880611" />
+    <state width="1137" height="54" key="GridCell.Tab.0.bottom" timestamp="1626201447250">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state width="1137" height="54" key="GridCell.Tab.0.bottom/0.27.1920.969@0.27.1920.969" timestamp="1626201447250" />
+    <state width="1137" height="54" key="GridCell.Tab.0.center" timestamp="1626201447250">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state width="1137" height="54" key="GridCell.Tab.0.center/0.27.1920.969@0.27.1920.969" timestamp="1626201447250" />
+    <state width="1137" height="54" key="GridCell.Tab.0.left" timestamp="1626201447249">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state width="1137" height="54" key="GridCell.Tab.0.left/0.27.1920.969@0.27.1920.969" timestamp="1626201447249" />
+    <state width="1137" height="54" key="GridCell.Tab.0.right" timestamp="1626201447250">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state width="1137" height="54" key="GridCell.Tab.0.right/0.27.1920.969@0.27.1920.969" timestamp="1626201447250" />
+    <state x="449" y="146" width="1022" height="737" key="SettingsEditor" timestamp="1623872344829">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state x="449" y="146" width="1022" height="737" key="SettingsEditor/0.27.1920.969@0.27.1920.969" timestamp="1623872344829" />
+    <state x="389" y="278" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1626607047058">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state x="389" y="278" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.969@0.27.1920.969" timestamp="1626607047058" />
+    <state x="741" y="426" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618600974788">
+      <screen x="0" y="27" width="1920" height="969" />
+    </state>
+    <state x="741" y="426" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.969@0.27.1920.969" timestamp="1618600974788" />
+  </component>
+</project>
