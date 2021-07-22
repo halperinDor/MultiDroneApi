@@ -1,12 +1,14 @@
-from django.shortcuts import render
-from rest_framework import viewsets, status
-from rest_framework.decorators import action
-from rest_framework.response import Response
+from django.contrib.auth.models import User
+from rest_framework import viewsets
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
-from django.contrib.auth.models import User
-from .models import Drone, DroneCommand, DroneMission
+
+from .Models.drone import Drone
+from .Models.droneCommmand import DroneCommand
+from .Models.droneMission import DroneMission
+from .Models.missionsCoordinates import MissionsCoordinates
 from .serializers import DroneSerializer, UserSerializer, CommandSerializer, MissionSerializer
+from .serializers import MissionsCoordinatesSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -31,5 +33,12 @@ class CommandViewSet(viewsets.ModelViewSet):
 class MissionViewSet(viewsets.ModelViewSet):
     queryset = DroneMission.objects.all()
     serializer_class = MissionSerializer
+    authentication_classes = (TokenAuthentication,)
+    permission_classes = (IsAuthenticated,)
+
+
+class MissionsCoordinatesViewSet(viewsets.ModelViewSet):
+    queryset = MissionsCoordinates.objects.all()
+    serializer_class = MissionsCoordinatesSerializer
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticated,)

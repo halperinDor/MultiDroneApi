@@ -1,7 +1,10 @@
 from rest_framework import serializers
 from rest_framework.authtoken.models import Token
 from django.contrib.auth.models import User
-from .models import Drone, DroneCommand, DroneMission
+from .Models.drone import Drone
+from .Models.droneCommmand import DroneCommand
+from .Models.droneMission import DroneMission
+from .Models.missionsCoordinates import MissionsCoordinates
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -34,3 +37,9 @@ class MissionSerializer(serializers.ModelSerializer):
     class Meta:
         model = DroneMission
         fields = ('id', 'name', 'coordinates')
+
+
+class MissionsCoordinatesSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = MissionsCoordinates
+        fields = ('id', 'missions')

@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35add43-3588-469e-95cb-4451fbcbfc3f" name="Default Changelist" comment="last check 16.6.01." />
+    <list default="true" id="d35add43-3588-469e-95cb-4451fbcbfc3f" name="Default Changelist" comment="last changes 18.7">
+      <change afterPath="$PROJECT_DIR$/api/Models/drone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/Models/droneCommmand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/Models/droneMission.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/Models/missionsCoordinates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1q6qllwJE6hK7Pih86Gz1hSOZNC" />
@@ -59,11 +98,44 @@
       <option name="presentableId" value="Default" />
       <updated>1616410540656</updated>
     </task>
+    <task id="LOCAL-00001" summary="last changes 18.7">
+      <created>1626607175486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626607175486</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upload to github" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload to github" />
+    <MESSAGE value="last changes 18.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="last changes 18.7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="370" width="615" height="357" key="#Notifications" timestamp="1623872202882">
@@ -86,30 +158,30 @@
       <screen x="0" y="27" width="1920" height="969" />
     </state>
     <state x="581" y="224" width="420" height="650" key="Github.UntrackedFilesDialog/0.27.1920.969@0.27.1920.969" timestamp="1618600880611" />
-    <state width="1137" height="54" key="GridCell.Tab.0.bottom" timestamp="1626201447250">
+    <state width="1130" height="290" key="GridCell.Tab.0.bottom" timestamp="1626863120802">
       <screen x="0" y="27" width="1920" height="969" />
     </state>
-    <state width="1137" height="54" key="GridCell.Tab.0.bottom/0.27.1920.969@0.27.1920.969" timestamp="1626201447250" />
-    <state width="1137" height="54" key="GridCell.Tab.0.center" timestamp="1626201447250">
+    <state width="1130" height="290" key="GridCell.Tab.0.bottom/0.27.1920.969@0.27.1920.969" timestamp="1626863120802" />
+    <state width="1130" height="290" key="GridCell.Tab.0.center" timestamp="1626863120801">
       <screen x="0" y="27" width="1920" height="969" />
     </state>
-    <state width="1137" height="54" key="GridCell.Tab.0.center/0.27.1920.969@0.27.1920.969" timestamp="1626201447250" />
-    <state width="1137" height="54" key="GridCell.Tab.0.left" timestamp="1626201447249">
+    <state width="1130" height="290" key="GridCell.Tab.0.center/0.27.1920.969@0.27.1920.969" timestamp="1626863120801" />
+    <state width="1130" height="290" key="GridCell.Tab.0.left" timestamp="1626863120800">
       <screen x="0" y="27" width="1920" height="969" />
     </state>
-    <state width="1137" height="54" key="GridCell.Tab.0.left/0.27.1920.969@0.27.1920.969" timestamp="1626201447249" />
-    <state width="1137" height="54" key="GridCell.Tab.0.right" timestamp="1626201447250">
+    <state width="1130" height="290" key="GridCell.Tab.0.left/0.27.1920.969@0.27.1920.969" timestamp="1626863120800" />
+    <state width="1130" height="290" key="GridCell.Tab.0.right" timestamp="1626863120801">
       <screen x="0" y="27" width="1920" height="969" />
     </state>
-    <state width="1137" height="54" key="GridCell.Tab.0.right/0.27.1920.969@0.27.1920.969" timestamp="1626201447250" />
+    <state width="1130" height="290" key="GridCell.Tab.0.right/0.27.1920.969@0.27.1920.969" timestamp="1626863120801" />
     <state x="449" y="146" width="1022" height="737" key="SettingsEditor" timestamp="1623872344829">
       <screen x="0" y="27" width="1920" height="969" />
     </state>
     <state x="449" y="146" width="1022" height="737" key="SettingsEditor/0.27.1920.969@0.27.1920.969" timestamp="1623872344829" />
-    <state x="389" y="278" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1626607047058">
+    <state x="389" y="278" width="801" height="535" key="Vcs.Push.Dialog.v2" timestamp="1626607374793">
       <screen x="0" y="27" width="1920" height="969" />
     </state>
-    <state x="389" y="278" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.969@0.27.1920.969" timestamp="1626607047058" />
+    <state x="389" y="278" width="801" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.969@0.27.1920.969" timestamp="1626607374793" />
     <state x="741" y="426" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618600974788">
       <screen x="0" y="27" width="1920" height="969" />
     </state>

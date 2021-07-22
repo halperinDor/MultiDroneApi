@@ -1,5 +1,4 @@
 from django.db import models
-from django.core.validators import MaxValueValidator, MinValueValidator
 
 
 class Drone(models.Model):
@@ -21,18 +20,4 @@ class Drone(models.Model):
     ekf = models.BooleanField()
     mode = models.CharField(max_length=32)
     mission = models.CharField(max_length=32)
-
-
-class DroneCommand(models.Model):
-    name = models.CharField(max_length=20, default="")
-    command = models.CharField(max_length=20, default="")
-    alt = models.FloatField(default=0, validators=[
-            MaxValueValidator(100),
-            MinValueValidator(0)
-        ])
-
-
-class DroneMission(models.Model):
-    name = models.CharField(max_length=32, default="")
-    coordinates = models.CharField(max_length=2000, default="")
 
