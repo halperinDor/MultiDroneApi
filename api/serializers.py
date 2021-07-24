@@ -36,7 +36,7 @@ class CommandSerializer(serializers.ModelSerializer):
 class MissionSerializer(serializers.ModelSerializer):
     class Meta:
         model = DroneMission
-        fields = ('id', 'name', 'coordinates')
+        fields = ('id', 'name','alt', 'coordinates')
 
 
 class MissionsCoordinatesSerializer(serializers.ModelSerializer):
