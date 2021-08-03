@@ -3,12 +3,10 @@ from rest_framework import viewsets
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 
-from .Models.drone import Drone
-from .Models.droneCommmand import DroneCommand
-from .Models.droneMission import DroneMission
-from .Models.missionsCoordinates import MissionsCoordinates
+from api.Models.drone import Drone
+from api.Models.droneCommmand import DroneCommand
+from api.Models.droneMission import DroneMission
 from .serializers import DroneSerializer, UserSerializer, CommandSerializer, MissionSerializer
-from .serializers import MissionsCoordinatesSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -36,9 +34,3 @@ class MissionViewSet(viewsets.ModelViewSet):
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticated,)
 
-
-class MissionsCoordinatesViewSet(viewsets.ModelViewSet):
-    queryset = MissionsCoordinates.objects.all()
-    serializer_class = MissionsCoordinatesSerializer
-    authentication_classes = (TokenAuthentication,)
-    permission_classes = (IsAuthenticated,)
