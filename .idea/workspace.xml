@@ -17,32 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35add43-3588-469e-95cb-4451fbcbfc3f" name="Default Changelist" comment="last changes 3.8">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/migrations/0002_auto_20210805_1517.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/migrations/0003_remove_drone_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/migrations/0004_drone_owner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/migrations/0005_auto_20210805_1747.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirments-dev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/Models/drone.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/Models/drone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/Models/droneMission.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/Models/droneMission.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0002_auto_20210331_1008.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0003_command.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0004_auto_20210401_1552.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0005_auto_20210408_0538.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0006_auto_20210408_0610.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0007_dronemission.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0008_auto_20210616_1925.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0009_auto_20210616_1931.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0010_auto_20210616_1943.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDrone/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiDrone/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiDrone/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiDrone/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
