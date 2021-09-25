@@ -1,5 +1,8 @@
 from django.db import models
-
+from django.contrib.auth.models import User
+from django.conf import settings
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
 
 class Drone(models.Model):
     name = models.CharField(max_length=32,unique=True, default="")
@@ -20,4 +23,8 @@ class Drone(models.Model):
     ekf = models.BooleanField()
     mode = models.CharField(max_length=32)
     mission = models.CharField(max_length=32)
+    owner_token = models.CharField(max_length=2000, default="none")
+
+
+
 

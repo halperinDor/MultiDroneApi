@@ -23,7 +23,7 @@ class DroneSerializer(serializers.ModelSerializer):
         model = Drone
         fields = ('id', 'name', 'connect', 'bat', 'fix', 'num_sat', 'lat',
                   'lng', 'alt', 'zspeed', 'gspeed', 'heading', 'pitch', 'roll', 'arm', 'armable',
-                  'ekf', 'mode', 'mission')
+                  'ekf', 'mode', 'mission', 'owner_token')
 
 
 class CommandSerializer(serializers.ModelSerializer):
